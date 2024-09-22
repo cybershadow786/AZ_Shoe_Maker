@@ -1,32 +1,29 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React from "react";
+import {Routes , Route } from "react-router-dom";
 import About from "./Components/Pages/about";
 import ContactUs from "./Components/Pages/contactUs";
 import Home from "./Components/Pages/home";
 import Product from "./Components/Pages/product";
 import Navbar from "./Components/Utilites/Navbar/Navbar";
 import Footer from "./Components/Utilites/Footer/Footer";
-import MyCart from './Components/Pages/myCart';
-
+import MyCart from "./Components/Pages/myCart";
+import Login from "./Components/Pages/login";
+import SingUp from "./Components/Pages/singup";
 function App() {
-  console.log(Router);
-  
   return (
     <>
-      <Router>
-        <Navbar /> 
-        <div className="container">
-          <Routes>
-            <Route path="./Components/Pages/home" element={<Home />} />  {/* Render Home by default */}
-            <Route path="./Components/Pages/about" element={<About />} />  {/* Render About component */}
-            <Route path="./Components/Pages/product" element={<Product />} />
-            <Route path="./Components/Pages/myCart" element={<MyCart />} />
-            <Route path="./Components/Pages/contactUs" element={<ContactUs />} />
-          </Routes>
-        </div>
-        <Footer /> 
-      </Router>
-    </>
+        <Navbar />
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/myCart" element={<MyCart />} />
+          <Route path="/contactUs" element={<ContactUs />} />
+          <Route path="/signIn" element={<Login />} />
+          <Route path="/signUp" element={<SingUp />} />
+        </Routes>
+        <Footer />
+      </>
   );
 }
 
