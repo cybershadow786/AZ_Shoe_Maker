@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+       backgroundImage: {
+        'home-cover': "url('https://cdn.shopify.com/s/files/1/0262/4169/5823/t/11/assets/the5bestmensweddingdressshoesforgrooms-1675879174146.jpg?v=1675879180')",
+      },
       screens: {
         'tablet': '640px',   // Custom breakpoint for tablet
         '_1100' : '1100px',
