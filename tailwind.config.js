@@ -16,11 +16,14 @@ module.exports = {
         'home-card-3': "url('https://as1.ftcdn.net/v2/jpg/06/85/12/12/1000_F_685121237_wcF9WWJEKgaHCPg95UQiCs0ZcEdXGiPr.jpg')",
       },
       screens: {
-        'tablet': '640px',   // Custom breakpoint for tablet
+        '_640': '640px',  
+        '_641': '641px',
         '_1100' : '1100px',
         '_890' : '890px',
         '_768' : '768px',
-        'desktop': '1024px', // Custom breakpoint for desktop
+        '_1024': '1024px',
+        '_425': '425px',
+        '_375': '375px',
       },
     },
   },

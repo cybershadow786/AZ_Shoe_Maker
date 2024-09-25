@@ -12,6 +12,7 @@ import SingUp from "./Components/Pages/singup";
 function App() {
   return (
     <>
+    <div className="ml-0">
         <Navbar />
         <Routes>
           <Route index element={<Home />} />
@@ -23,6 +24,7 @@ function App() {
           <Route path="/signUp" element={<SingUp />} />
         </Routes>
         <Footer />
+        </div>
       </>
   );
 }
