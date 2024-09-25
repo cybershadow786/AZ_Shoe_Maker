@@ -62,14 +62,13 @@ function Home() {
       <div className="relative z-10 flex justify-around  items-center mt-12 md-12 px-4 ">
         <div className="flex flex-col sm:flex-row w-full bg-white  rounded-xl shadow-2xl overflow-hidden space-x-8 p-5 max-w-[80%]">
           {/* Image */}
-          <div className="w-full sm:w-1/2 bg-home-card-3  bg-cover bg-center h-48 sm:h-64 lg:h-72 drop-shadow-2xl"></div>
+          <div className="w-full sm:w-1/2 bg-home-card-3  bg-cover bg-center h-48 sm:h-64 lg:h-72 "></div>
 
           {/* Text */}
           <div className="w-full sm:w-1/2 p-6 flex flex-col justify-center">
-            <h2 className="text-2xl font-bold mb-4 font-playpen">Craftsmanship and Passion</h2>
+            <h2 className="text-2xl font-bold mb-4 font-playpen">Get in Touch</h2>
             <p className="text-lg">
-            At AZ_Shoe_Maker, we are devoted to the art of shoemaking, blending traditional craftsmanship with modern design. Our team of skilled artisans takes pride in creating high-quality leather shoes that reflect elegance and comfort. We believe every pair tells a story, and we strive to ensure that our footwear not only meets your style needs but also stands the test of time. <strong>Want to know more</strong> <Link to='/contactUs' className="text-blue-500">Click Here</Link>
-            </p>
+            Whether you have a question, need help with sizing, or want to know more about our handcrafted shoes, we're here to assist. Reach out to us, and let’s step forward together with confidence."</p>
           </div>
           
         </div>
