@@ -7,7 +7,7 @@ function Home() {
       <div className="h-screen">
       {/* Background */}
       <div className="before:contents-[''] before:block before:absolute before:inset-0 before:bg-home-cover before:bg-cover before:bg-center before:opacity-100 bg-[rgba(0, 0, 0, 0.5)]"></div>
-      <div className="absolute inset-0 bg-black bg-opacity-5 backdrop-blur-md"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-5 backdrop-blur-sm"></div>
 
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full">

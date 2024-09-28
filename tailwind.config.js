@@ -14,6 +14,10 @@ module.exports = {
         'home-card-1': "url('https://goosebumps.co.in/wp-content/uploads/2019/06/what-we-offer-brochure.svg')",
         'home-card-2': "url('https://www.learnetpub.co.in/images/21670932655.png')",
         'home-card-3': "url('https://as1.ftcdn.net/v2/jpg/06/85/12/12/1000_F_685121237_wcF9WWJEKgaHCPg95UQiCs0ZcEdXGiPr.jpg')",
+        'about-cover': "url('https://previews.123rf.com/images/danmorgan12/danmorgan121806/danmorgan12180600017/103692064-footwear-concepts-closeup-of-pair-of-high-men-s-tanned-brogues-boots-isolated-over-white-background.jpg')",
+        'about-card-1': "url('https://caringwaysrehab.pk/wp-content/uploads/2023/08/our-mission-1024x655.png')",
+        'about-card-2': "url('https://jerusalemsandals.com/cdn/shop/articles/7_Benefits_of_Wearing_Leather_Shoes_1.jpg?v=1605684876')",
+        'about-card-3': "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaiIDu7luawKozFHgGkpyIUqssw4mCJ7i4tw&s')",
       },
       screens: {
         '_640': '640px',  
