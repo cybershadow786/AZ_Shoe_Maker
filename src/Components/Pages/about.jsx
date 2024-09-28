@@ -58,7 +58,7 @@ function About() {
           <h1 className="text-5xl font-extrabold">About Us</h1>
           <div className=" relative z-10 flex justify-around  items-center mt-12 md-12 px-4  ">
         <div className=" md:h-80 _890:h-72 _1100:h-auto flex flex-col sm:flex-row w-full bg-white  rounded-xl overflow-hidden space-x-8 p-5 max-w-[85%] ">
-          <div className="w-full self-center sm:w-1/2 bg-about-card-1 bg-cover bg-center h-43 sm:h-64 lg:h-72 drop-shadow-lg"></div>
+          <div className="w-full self-center sm:w-[50%] bg-about-card-1 bg-cover bg-center h-43 sm:h-64 lg:h-72 drop-shadow-lg"></div>
           <div className="w-full sm:w-1/2 p-6 flex flex-col justify-center">
             <h2 className="text-2xl font-bold mb-4 font-playpen _375:text-sm _425:text-xl md:text-xl _890:text-xl line _1100:text-2xl">Our Mission</h2>
             <p className="text-lg _375:text-xs _425:text-sm md:text-sm _890:text-base _1100:text-lg">
@@ -98,12 +98,11 @@ function About() {
         </div>
       </div>
       </div>
+      <div>
       <div className="bg-gray-100 py-8 overflow-hidden">
       <h2 className="text-center text-3xl font-bold mb-6">What Our Customers Say</h2>
       <div className="relative w-full overflow-hidden">
-        {/* The container that holds the animated items */}
         <div className="flex space-x-8 animate-marquee">
-          {/* Duplicate the array to create a continuous effect */}
           {reviews.concat(reviews).map((review, index) => (
             <div key={index} className="flex-shrink-0 w-64 bg-white rounded-lg shadow-lg p-4">
               <img
@@ -118,8 +117,9 @@ function About() {
         </div>
       </div>
     </div>
-    </div>
-    </div>
+  </div>
+</div>
+</div>
   )
 }
 
