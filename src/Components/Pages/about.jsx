@@ -3,22 +3,37 @@ function About() {
   const reviews = [
     {
       name: "Emily R.",
-      image: "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png", // Replace with actual image URL
+      image: "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png", 
       comment: "The most comfortable shoes I’ve ever worn. The craftsmanship is truly unmatched!"
     },
     {
       name: "Michael B.",
-      image: "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png", // Replace with actual image URL
+      image: "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png", 
       comment: "These shoes are not just stylish, they’re built to last. I couldn’t be happier with my purchase!"
     },
     {
       name: "Sarah K.",
-      image: "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png", // Replace with actual image URL
+      image: "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png", 
       comment: "I love the elegance and comfort of my new shoes. Highly recommended!"
     },
     {
       name: "David L.",
-      image: "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png", // Replace with actual image URL
+      image: "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png", 
+      comment: "Top-notch quality and amazing customer service. I’ll definitely buy again!"
+    },
+    {
+      name: "David L.",
+      image: "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png", 
+      comment: "Top-notch quality and amazing customer service. I’ll definitely buy again!"
+    },
+    {
+      name: "David L.",
+      image: "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png", 
+      comment: "Top-notch quality and amazing customer service. I’ll definitely buy again!"
+    },
+    {
+      name: "David L.",
+      image: "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png", 
       comment: "Top-notch quality and amazing customer service. I’ll definitely buy again!"
     },
   ];
@@ -72,7 +87,7 @@ function About() {
             <h2 className="text-2xl font-bold  _375:text-sm _425:text-xl  md:text-xl mb-4 font-playpen _890:text-2xl">Our Values</h2>
             <p className="text-lg _375:text-xs _425:text-sm md:text-sm _890:text-lg">
             Our shoes aren't just about looking good—they represent the values that drive us every day:
-            <ul>
+            <ul className='list-disc'>
                 <li><strong>Quality First:</strong> We never compromise on quality, ensuring each shoe stands the test of time.</li>
                 <li><strong>Comfort and Style:</strong> We combine comfort with style to create shoes that fit your life as much as they fit your feet.</li>
                 <li><strong>Sustainability:</strong> We take pride in our sustainable sourcing of materials, minimizing our impact on the environment.</li>

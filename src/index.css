@@ -13,12 +13,12 @@
 
 .animate-marquee {
   display: flex;
-  animation: marquee 15s linear infinite;
+  animation: marquee 20s linear infinite;
   width: fit-content;
 }
 
 @media (min-width: 768px) {
   .animate-marquee {
-    animation-duration: 30s; /* Slower on larger screens */
+    animation-duration: 40s; /* Slower on larger screens */
   }
 }
