@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./index.html",
@@ -9,6 +10,9 @@ module.exports = {
       fontFamily: {
         playpen: ['Playpen Sans', 'sans-serif'],
       },
+      boxShadow: {
+        input: `0px 2px 3px -1px rgba(0,0,0,0.1), 0px 1px 0px 0px rgba(25,28,33,0.02), 0px 0px 0px 1px rgba(25,28,33,0.08)`,
+      },
        backgroundImage: {
         'home-cover': "url('https://cdn.shopify.com/s/files/1/0262/4169/5823/t/11/assets/the5bestmensweddingdressshoesforgrooms-1675879174146.jpg?v=1675879180')",
         'home-card-1': "url('https://goosebumps.co.in/wp-content/uploads/2019/06/what-we-offer-brochure.svg')",
@@ -18,6 +22,8 @@ module.exports = {
         'about-card-1': "url('https://caringwaysrehab.pk/wp-content/uploads/2023/08/our-mission-1024x655.png')",
         'about-card-2': "url('https://jerusalemsandals.com/cdn/shop/articles/7_Benefits_of_Wearing_Leather_Shoes_1.jpg?v=1605684876')",
         'about-card-3': "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaiIDu7luawKozFHgGkpyIUqssw4mCJ7i4tw&s')",
+        'product-cover' : "url('https://www.districtonelabel.sg/pub/media/magefan_blog/A_Comprehensive_Buying_Guide_Leather_Shoes_for_Men_1.png')",
+        'contactUs-cover' : "url('https://www.leatherites.com/cdn/shop/files/pexels-terje-sollie-298864_1.jpg?v=1678135974&width=3000')"
       },
       screens: {
         '_640': '640px',  
@@ -33,3 +39,5 @@ module.exports = {
   },
   plugins: [],
 }
+ 
+

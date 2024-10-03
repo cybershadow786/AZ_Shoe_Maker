@@ -18,10 +18,10 @@ function Home() {
         </h1>
         <div className="flex justify-between space-x-16 mt-4">
           <button className="bg-blue-600 text-white rounded-xl font-bold py-2 px-4 hover:bg-blue-700 transition sm:py-1 sm:px-2 sm:text-base _890:py-2 _890:px-4 _890:text-xl">
-            Shop Now
+           <Link to ='/product'> Shop Now </Link>
           </button>
           <button className="sm:py-2 sm:px-2 sm:text-base _890:py-2 _890:px-4 _890:text-xl bg-transparent border-2 border-white text-white rounded-xl font-semibold py-2 px-4 hover:bg-white hover:text-blue-600 transition ">
-            Learn More
+            <Link to='/about'> Learn More</Link>
           </button>
         </div>
         </div>
@@ -50,16 +50,13 @@ function Home() {
             At AZ_Shoe_Maker, we are devoted to the art of shoemaking, blending traditional craftsmanship with modern design. Our team of skilled artisans takes pride in creating high-quality leather shoes that reflect elegance and comfort. We believe every pair tells a story, and we strive to ensure that our footwear not only meets your style needs but also stands the test of time.  <strong>Want to know more</strong> <Link to='/about' className="text-blue-500">Click Here</Link>
             </p>
           </div>
-          {/* Image */}
           <div className="w-full invert sm:w-1/2 bg-home-card-2 bg-cover bg-center h-48 sm:h-64 lg:h-72 drop-shadow-2xl self-center"></div>
         </div>
       </div>
-      <div className="relative z-10 flex justify-around  items-center mt-12 md-12 px-4 ">
+      <div className="relative z-10 flex justify-around  items-center mt-12 mb-12 px-4 ">
         <div className="flex md:h-[18rem] _890:h-auto flex-col sm:flex-row w-full bg-white  rounded-xl shadow-2xl overflow-hidden space-x-8 p-5 max-w-[80%]">
-          {/* Image */}
           <div className="w-full self-center sm:w-1/2 bg-home-card-3  bg-cover bg-center h-48 sm:h-64 lg:h-72 "></div>
 
-          {/* Text */}
           <div className="w-full sm:w-1/2 p-6 flex flex-col justify-center">
             <h2 className="text-2xl font-bold  _375:text-sm _425:text-xl  md:text-xl mb-4 font-playpen _890:text-2xl">Get in Touch</h2>
             <p className="text-lg _375:text-xs _425:text-sm md:text-sm _890:text-lg">

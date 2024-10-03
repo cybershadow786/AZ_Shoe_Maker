@@ -1,20 +1,15 @@
-  import React, { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [activeLink, setActiveLink] = useState("Home");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const handleLinkClick = (link) => {
-    setActiveLink(link);
-  };
 
   return (
     <>
-      <nav className="bg-white  sticky dark:bg-gray-900 w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
-        <div className="max-w-screen-xl _910:max-w-screen-xl _910:mx-auto flex flex-wrap items-center justify-between mx-auto p-4 ">
+      <nav className="bg-white sticky dark:bg-gray-900 w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+        <div className="max-w-screen-xl _910:max-w-screen-xl _910:mx-auto flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <span className=" self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-center _768:w-[100vw] _768:mb-4 _890:mb-0 _890:w-auto ">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-center _768:w-[100vw] _768:mb-4 _890:mb-0 _890:w-auto">
               AZ_Shoe_Maker
             </span>
           </Link>
@@ -55,13 +50,7 @@ const Navbar = () => {
                 <li key={link.name}>
                   <Link
                     to={link.path}
-                    onClick={() => handleLinkClick(link.name)}
-                    className={`block py-2 px-3 rounded md:p-0 ${
-                      activeLink === link.name
-                        ? "text-blue-400 underline decoration-white underline-offset-4 select-none"
-                        : "text-white select-none hover:text-blue-400 hover:underline decoration-white underline-offset-4"
-                    }`}
-                    aria-current={activeLink === link.name ? "page" : undefined}
+                    className="block py-2 px-3 rounded md:p-0 text-white select-none hover:text-blue-400 hover:underline decoration-white underline-offset-4"
                   >
                     {link.name}
                   </Link>
