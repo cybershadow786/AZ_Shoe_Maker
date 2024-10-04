@@ -24,7 +24,6 @@ module.exports = {
         'about-card-3': "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaiIDu7luawKozFHgGkpyIUqssw4mCJ7i4tw&s')",
         'product-cover' : "url('https://www.districtonelabel.sg/pub/media/magefan_blog/A_Comprehensive_Buying_Guide_Leather_Shoes_for_Men_1.png')",
         'contactUs-cover' : "url('https://www.leatherites.com/cdn/shop/files/pexels-terje-sollie-298864_1.jpg?v=1678135974&width=3000')",
-        'sinupPage-cover' : "url('https://sloshoes.com/cdn/shop/products/leonbrownleathershoes_200x.jpg?v=1679645451')"
       },
       screens: {
         '_640': '640px',  
